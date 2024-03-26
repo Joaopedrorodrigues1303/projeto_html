@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aninews </title>
+</head>
+
+<style>
+    .center{
+        display: flex;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 2%;
+        flex-wrap: wrap;
+    }
+    .about-header{
+        width: 100%;
+        background-color: #639ac9;
+
+    }
+    .about-header p{
+        color: white;
+        padding: 8px;
+    }
+
+    header h2 span{
+        color: #639ac9;
+
+    }
+
+    header h2{
+        font-size: 35px;
+        color: #222;
+    }
+
+    .logo{
+        margin-top: 10px;
+    }
+
+    .wraper-header{
+        padding: 40px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .banner-ads{
+        width: 60%;
+        height: 100px ;
+        background-color: #222;
+        position: relative;
+    }
+
+    banner-ads h2{
+        position: absolute;
+        height: 10px;
+        top: 10px;
+        color: white;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .menu-main{
+        width: 100%;
+        background-color: #639ac9;
+        padding: 8px;
+    }
+    .menu-main a{
+        display: inline-block;
+        margin: 0 10px;
+        color: white;
+        text-decoration: none;
+    }
+    .menu-main a:hover{
+        text-decoration: underline;
+    }
+
+    .noticias-wraper-1{
+        display: flex;
+        width: 100%;
+    }
+
+    .noticias-destaque{
+        width: 60%;
+        padding-top: 20%;
+        background-color: #222;
+        border: 2px solid white;
+        position: relative;
+    }
+
+    .noticia-destaque-single{
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .noticia-destaque-single h3{
+        padding: 10px;
+        color: white;
+    }
+
+    .outras-noticias-1{
+        display: flex;
+        width: 40%;
+        flex-wrap: wrap;
+    }
+
+    .outra-noticia-1-single{
+        width: 50%;
+        padding-top: 30%;
+        background-size: cover;
+        background-position: center;
+        border: 2px solid white;
+        background-color: #222;
+        position: relative;    
+    }
+
+    .outra-noticia-1-single h3{
+        padding: 10px;
+        color: white;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(0, 0, 0, 0.6);
+    }
+</style>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="about-header">
+                <p>Um site de noticias de anime </p>
+
+            </div>
+            <div class="wraper-header"> 
+                <div class="logo">
+                    <h2><span>ANI</span> NEWS </h2>
+                </div>
+                <div class="banner-ads">
+                    <h2><span style="font-size: 23px;"> O mangá de Jujutsu Kaisen está disponível no app TOMATO </span></h2>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--FIM DO HEADER-->
+
+    <div class="center">
+        <div class="menu-main">
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
+    </div>
+
+    <section class="noticias-1">
+        <div class="center">
+            <div class="noticias-wraper-1">
+                <div class="noticias-destaque"> 
+                    <div style="background-image: url(https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_n4pd73vehh6jl18qrtic79el3s/-S265-FWEBP);" class="noticia-destaque-single">
+                        <h3> O manga jujutsu kaisen demora um mês para lançar capítulos novos.  </h3>
+                    </div>
+                </div>
+                <div class="outras-noticias-'">
+                    <div style="background-image: url(https://staticg.sportskeeda.com/editor/2023/01/1d1f0-16727495305206-1920.jpg);"  class="outra-noticia-1-single">
+                        <h3> O feiticeiro especial gojo satoru foi selado!!! </h3>   
+                    </div>
+                    <div class="outra-noticia-1-single" style="background-image: url(https://static.wikia.nocookie.net/0558face-de5d-47b5-857b-8abb47bb1c5c/scale-to-width/755);">
+                        <h3> O feiticeiro itadori yuuji está em uma depressão profunda </h3>   
+                    </div>  
+                    <div class="outra-noticia-1-single" style="background-image: url(https://thicc-af.mywaifulist.moe/waifus/kento-nanami-sorcery-fight/5duU7DfON2JYXOnx8pK33zYQKkxxHtPQBW3XOhDT.jpg?class=thumbnail);">
+                        <h3> Nanami Kento infelizmente faleceu, descanse em paz. </h3>   
+                    </div>
+                    <div class="outra-noticia-1-single" style="background-image: url(https://staticg.sportskeeda.com/editor/2024/03/4c26c-17111490211680-1920.jpg);">
+                        <h3> Kusakabe ficou sozinho e agora vai ter que tankar o sukuna </h3>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
